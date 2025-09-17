@@ -7,18 +7,49 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Node.js Dependencies
 node_modules
 dist
 dist-ssr
 *.local
 
+# Python Virtual Environment
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Environment Variables
+.env
+
+# Uploaded Files (temporary)
+uploads/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-.idea
-.DS_Store
+.idea/
+*.swp
+*.swo
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Cache
+cache/
+
+# Model files (these can be large)
+models/*.bin
+models/*.pkl
+models/*.model
